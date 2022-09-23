@@ -2,32 +2,21 @@
   box-sizing: border-box;
 }
 body{
-  background-color: aqua;
-}
-.user-cards{
-  display: flex;
-  flex-wrap: wrap;
-}
-
-.user-card{
-  min-width: 300px;
-  width: 100%;
-  max-width: 600px;
-  
-  margin: 20px;
-  
-  display: flex;
-  align-items: center;
-  
   background-color: azure;
 }
-
-.user-photo{
-  width: 50%;
-  object-fit: cover;
-  clip-path: polygon(0 0, 100% 0, 77% 99%, 0% 100%);
+h1{
+  font-size: 3em;
+  column-span: all;
+  text-align: center;
 }
-
-.user-info{
+.content{
+  max-width: 1200px;
+  min-height: 80vh;
   margin: auto;
+    /* column-count: 4;
+  column-width: 400px; */
+  columns: 5 200px;
+  column-rule: red dotted 5px;
+  column-gap: 4em;
+  text-align: justify;
 }
